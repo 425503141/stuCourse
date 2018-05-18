@@ -1,0 +1,123 @@
+<input type="hidden" id="commonUserId">
+<header class="ui-main-header">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerBox" aria-expanded="false">
+                    <span class="sr-only">菜单列表</span>    
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand clearfix ui-logo">
+                    <i class="navbar-left"></i>
+                    <span class="navbar-left">北京经分大数据统一运维</span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="headerBox">
+                <div class="ui-user-info navbar-right J_userInfoBox">
+                    <div class="ui-user-header clearfix">
+                        <i class="navbar-left">
+                            <img class="J_userPicHead" />
+                        </i>
+                        <span class="ui-more-info navbar-left"></span>
+                    </div>
+                    <div class="ui-user-header-down hidden J_userInfoHide">
+                        <span class="ui-more-info ui-more-up"></span>
+                        <ul>
+                            <li class="first">
+                                <p>欢迎你</p>
+                                <p><span class="ui-user-header-name f14" id="userNameHeader"></span></p>
+                            </li>
+                            <li class="-hidden">
+                                <a href="#">我的资料</a>
+                            </li>
+                            <li class="-hidden">
+                                <!-- class="-hidden"什么意思 -->
+                                <a href="#">修改密码</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="logOut">退出</a>
+                                <!-- href什么意思 -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right J_navbar">
+                    <li class="hidden" id="index">
+                        <a href="#" class="ui-menu ui-index">
+                            <i></i>
+                            <span>首页</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i></i>
+                            <span>应用监控</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <span>调度监控</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <span>接口监控</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <span>告警管理</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <span>统计报表</span>
+                        </a>
+                    </li>
+                    <li class="hidden">
+                        <a href="#" class="ui-menu ui-yijing" id="yijingMonitor">
+                            <i></i>
+                            <span>一经监控</span>
+                        </a>
+                    </li>
+                    <li class="hidden">
+                        <a href="#" class="ui-menu ui-document" id="documentManager"></a>
+                        <i></i>
+                        <span>文档管理</span>
+                    </li>
+                    <li>
+                        <a href="" class="ui-menu ui-process" id="processMangement" data-subMenu='[{"name":"工单管理","url":"/"},{"name":"工单配置","url":"/"}]'></a>
+                        <i></i>
+                        <span>流程管理</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <span>系统管理</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="ui-submenu navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subheaderBox" aria-expanded="false">
+                <span class="sr-only">菜单列表</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <ul class="nav navbar-nav collapse navbar-collapse" id="subheaderBox">
+            <li class="active"><a href="#">实时监控</a></li>
+            <li><a href="#">历史监控</a></li>
+        </ul>
+    </div>
+</header>
