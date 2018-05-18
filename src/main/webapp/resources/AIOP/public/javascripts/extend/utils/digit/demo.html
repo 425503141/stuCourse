@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数字操作格式化工具</title>
+	<script src="DigitFmt.js"></script>
+	<script>
+      window.onload= function(){
+
+         console.log(DigitFmt.version);
+         console.log("******************———————DateFmt.Formate*********\r\n");
+         console.log("Formate(10000) :" + DigitFmt.Formate(10000));
+         console.log("Formate(10000, 2) :" + DigitFmt.Formate(10000, 2));
+         console.log("Formate(10000.123456, 2) :" + DigitFmt.Formate(10000.123456, 2));
+         console.log("Formate(.123456, 2, ' ') :" + DigitFmt.Formate(111222333.123456, 2, ' '));
+         console.log("Formate(.123456, 2, ' ') :" + DigitFmt.Formate(111222333.123456, 2, '#'));
+         console.log("Formate(56., 2, ' ') :" + DigitFmt.Formate(56., 2, ' '));
+         console.log("Formate(56., 0, ' ') :" + DigitFmt.Formate(56., 0, ' '));
+         console.log("Formate('56.') :" + DigitFmt.Formate('56.'));
+         console.log("Formate('56.a') :" + DigitFmt.Formate('56.a'));
+
+         console.log("******************———————DateFmt.FmtMoney*********\r\n");
+         console.log("FmtMoney(54321) =" + DigitFmt.FmtMoney(54321));
+         console.log("FmtMoney(12345, 0, '￥') =" + DigitFmt.FmtMoney(12345, 0, "￥"));
+
+         console.log("******************———————DateFmt.ScaleConvert*********\r\n");
+         console.log("ScaleConvert(10,2) =" + DigitFmt.ScaleConvert(2,2));
+         console.log("ScaleConvert(10,2) =" + DigitFmt.ScaleConvert(10,8));
+
+      }
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

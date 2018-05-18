@@ -1,0 +1,110 @@
+@charset "utf-8"; 
+
+html,body{
+	height: 100%;
+}
+.ui-login-content{
+	width: 100%;
+	height: 100%;
+	background: #0760cb\0;
+	filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#0865ce,endcolorstr=#0760cb,gradientType=0);
+    -ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#0865ce,endcolorstr=#0760cb,gradientType=0);	
+    background:	linear-gradient(top, #0865ce, #0760cb); 
+    background:	-ms-linear-gradient(top, #0865ce, #0760cb); 
+    background:-moz-linear-gradient(top, #0865ce, #0760cb);  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#0865ce), to(#0760cb));  
+    background:-o-linear-gradient(top, #0865ce, #0760cb); 
+}
+.ui-login-inner{
+	width: 100%;
+	height: 100%;
+	background: url("./images/loginBg.png") no-repeat right bottom;
+	position: relative;
+}
+.ui-login-header{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #0982d8;
+}
+.ui-login-logo{
+    background: url(images/AIOP_bg.png) no-repeat -5px -6px;
+    width: 165px;
+    height: 50px;
+    margin: 25px 0 0 ;
+}
+.ui-login-box{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.ui-login-inner > .ui-login-info{
+	width: 1200px;
+	height:436px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -218px 0 0 -600px;
+}
+.ui-login-left{
+	width: 480px;
+	height: 436px;
+	background: url("./images/login-left.png") no-repeat center center;
+}
+.ui-login-main{
+	height: 320px;
+	width: 350px;
+	margin: 48px 0 0;
+	background-color: #fff;
+	padding: 0 15px;
+}
+.ui-login-main .form-group{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.ui-login-main .text-danger{
+	height: 20px;
+}
+.ui-login-main .form-group .col-md-7,
+.ui-login-main .form-group .col-md-5{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.ui-login-main .form-group .col-md-5 > img{
+	 width: 103px;
+	 height: 40px;
+	 display: block;
+	 border: 1px solid #dbdbdb;
+}
+.ui-login-main .btn-submit{
+	 width: 310px;
+	 height: 42px;
+	 text-align: center;
+	 background-color: #118fe5 !important;
+	 color: #fff;
+}
+.ui-login-main > h4{
+	height: 40px;
+	line-height: 60px;
+	font-weight: 400;
+}
+.ui-login-main .form-horizontal input{
+	font-size: 12px;
+	height: 40px !important;
+}
+.ui-login-more{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+}
+.ui-login-more  > a{
+	color: #666;
+	font-size: 12px;
+}
+.ui-footer{
+	background-color: #3d3e46;
+	color: #b0b0b2;
+	height: 50px;
+	line-height: 50px;
+	border: 0px;
+}

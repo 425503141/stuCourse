@@ -1,0 +1,100 @@
+.alert-content {
+	width: 100%;
+	height: auto;
+	overflow: hidden !important;
+}
+.alert-content>span {
+	float: left;
+}
+.alert-icon {
+	height: 64px;
+	width: 80px;
+	margin: 0 -100% 0 0 ;
+}
+.alert-text {
+	width: auto;	
+	margin:  0 0 0 80px;
+	padding: 10px 0 0;
+}
+.alert-text-inner{
+	line-height: 36px;
+	text-align: left;
+	font-size: 14px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.alert-text-success {
+	color: #78a300;
+}
+.alert-success {
+	background: url(./images/icon_app.png) no-repeat 20px 15px;
+}
+.alert-text-info {
+	color: #333;
+}
+.alert-info {
+	background: url(./images/icon_app.png) no-repeat -236px 15px;
+}
+.alert-text-failed {
+	color: #B00;
+}
+.alert-failed {
+	background: url(./images/icon_app.png) no-repeat -1090px -100px;
+}
+.alert-text-warnning {
+	/* color: #B00; */
+	color: #666;
+	width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.alert-warnning {
+	background: url(./images/icon_app.png) no-repeat 20px -270px;
+	display:none;
+}
+/*
+瀵顢嬮弽宄扮础
+*/
+.ui-dialog.ui-widget.ui-widget-content{
+	padding: 0;
+	border:0;
+	margin: 0 0 55px;
+}
+.ui-dialog .ui-widget-header{
+	border: 1px solid #47a3f8;
+    background: #47a3f8;
+    color: #fff;
+    font-weight: normal;
+    border-radius:0px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: .6em 1em;
+}
+.ui-dialog .ui-widget-header .ui-dialog-titlebar-close{
+	background: transparent url(../../../../stylesheets/theme/default/images/AIOP_bg.png) -179px -112px;
+}
+.ui-common-dlg{
+	margin: 10px 0;
+}
+.ui-widget-content {
+    border: 1px solid #efefef;
+}
+.ui-widget-content .form-control{
+	border: 1px solid #e5e5e5;
+	box-shadow: none;
+}
+
+.ui-widget-content .multiselect.btn-default{
+	border: 1px solid #e5e5e5;
+}
+
+.ui-widget-content .form-control[disabled], 
+.ui-widget-content .form-control[readonly], 
+.ui-widget-content fieldset[disabled] .form-control {
+    background-color: #fff;
+}
+
+
+
+
+

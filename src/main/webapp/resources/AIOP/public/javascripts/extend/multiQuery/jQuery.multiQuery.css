@@ -1,0 +1,106 @@
+.query-condition-list{
+	overflow: hidden;
+}
+.query-condition-list > li{
+	position: relative;
+    _zoom: 1;
+    line-height: 34px;
+    border-bottom: 1px solid #DDD;
+    height: 34px;
+}
+.query-condition-list > li > label{
+	float: left;
+	margin: 0 -100% 0 0;
+	width: 130px;
+	text-align: left;
+	color: #666; 	
+}
+.query-condition-list > li > div{
+	float: left;
+	margin:  0 0 0 130px;
+}
+.query-condition-list > li > div > div.ui-child-box,
+.query-condition-list > li > div > ul{
+	width: 100%;
+	height: 34px;
+	text-align: center;
+}
+.query-condition-list > li > div > div.ui-child-box{
+	height: auto;
+	margin: 15px;
+	border:1px solid #DDD;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.query-condition-list > li > div > ul > li{
+	height: 26px;
+	line-height: 26px;
+	margin: 4px 50px 0 0;
+	float: left;
+	padding: 0 10px;
+	border-radius: 2px;
+}
+
+.query-condition-list > li > div > ul > li:HOVER,
+.query-condition-list > li > div > ul > li.hover{
+	background-color: #adadad;
+	
+}
+.query-condition-list > li > div > ul > li.active{
+	background-color: #2fa6ed;
+}
+.query-condition-list > li > div > ul > li.active>a,
+.query-condition-list > li > div > ul > li.hover>a{
+	color: #fff;
+}
+.query-condition-list > li > div > ul > li  > a{
+	 color: #005aa0;
+	 text-decoration: none;
+	 display: block;
+}
+.query-condition-list > li > div > ul > li:HOVER > a,
+.query-condition-list > li > div > ul > li.active > a{
+	color: #fff;
+}
+.selected-condition-box{
+	height: 50px;
+	overflow: hidden;
+}
+.selected-condition-box >label{
+	float: left;
+	margin: 0 -100% 0 0;
+	width: 150px;
+	text-align: left;
+	color: #333; 	
+	font-size: 14px;
+	line-height: 50px;
+}
+.selected-condition-box > div{
+	float: left;
+	margin:  0 0 0 130px;
+}
+.selected-condition-box > div > ul{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+}
+.selected-condition-box > div > ul > li{
+	width: auto;
+	line-height: 30px;
+	height:30px;
+	margin: 0 50px 0 0;
+	background-color: #2fa6ed; 
+	padding: 0 10px;
+	border-radius:2px;
+	float: left; 
+}
+.selected-condition-box > div > ul > li > a{
+	color: #fff;
+}
+.selected-condition-box > div > ul > li > .del-selected-condittion{
+	float: right;
+	margin:  0 0 0 10px;
+}
+.selected-condition-box > div > ul > li > a.del-selected-condittion:HOVER{
+	color: #f00;
+}

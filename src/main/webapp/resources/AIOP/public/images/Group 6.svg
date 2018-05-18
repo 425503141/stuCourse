@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="355px" viewBox="0 0 24 355" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="统一智能运维" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-629.000000, -1966.000000)">
+        <g id="应用场景" transform="translate(168.000000, 1716.000000)">
+            <g id="图" transform="translate(0.000000, 229.000000)">
+                <g id="Group-6" transform="translate(461.000000, 21.000000)">
+                    <rect id="Rectangle-5" fill="#D2F8F0" x="11" y="7" width="2" height="330"></rect>
+                    <circle id="Oval-2" fill="#50E3C2" cx="12" cy="7" r="7"></circle>
+                    <circle id="Oval-2-Copy-2" fill="#50E3C2" cx="12" cy="239" r="4"></circle>
+                    <circle id="Oval-2-Copy" fill="#50E3C2" cx="12" cy="99" r="4"></circle>
+                    <text id="" font-family="uex-icon" font-size="24" font-weight="normal" fill="#50E3C2">
+                        <tspan x="0" y="350"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

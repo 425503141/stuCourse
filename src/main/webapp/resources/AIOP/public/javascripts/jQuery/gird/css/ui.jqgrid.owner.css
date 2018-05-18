@@ -1,0 +1,181 @@
+.ui-jqgrid tr.jqgrow td{
+    height: 37px;
+    line-height: 37px;
+    color: #999;
+}
+.ui-jqgrid .ui-state-highlight{/*ȥ��ѡ��ʱ�Ļ�ɫ��������ɫ*/
+	background:none;
+}
+.ui-jqgrid-btable .ui-btn-delay-row{
+	background-color: #fff2f2 !important;
+	color: #f85454 !important;
+}
+.ui-jqgrid .ui-jqgrid-btable .ui-state-highlight{
+    border: 1px solid #efefef !important;
+    background: #ECF8F !important;
+    color: #666 !important;
+}
+.ui-jqgrid .ui-jqgrid-btable .ui-state-hover {
+    border: 1px solid #efefef !important;
+    background: #F2F6F9 !important;
+    font-weight: normal !important;
+    color: #333 !important;
+}
+.table>tbody>tr>td{
+	border-top: 0px;
+}
+.ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr{
+	border: 0px;
+	background-color: #eef6fb;
+	border-bottom: 1px solid #eef6fb;
+	height: 48px;
+	color:#333;
+}
+.ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr .ui-th-div{
+	height: auto;
+	text-align: center;
+	/* font-weight: bold; */
+}
+.ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr .ui-th-div >.ui-th-text{
+	margin: 0;
+	float: left;
+}
+.complex-table .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr{
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	border-top: 1px solid #efefef;
+	font-weight: bold;
+	background-color: #f7fcff;
+}
+.complex-table .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr:FIRST-CHILD{
+	border-left: 1px solid #efefef;
+}
+.complex-table .ui-jqgrid .ui-jqgrid-labels.jqg-third-row-header  th.ui-th-ltr{
+	border-top: 0px;
+	border-left: 0px;
+	color: #1db1f6;
+}
+#gridDatabaseMonitor_classify,#gridHostManage_classify{
+	border-left:1px solid #efefef;
+}
+.ui-jqgrid select.ui-pg-selbox.ui-pg-selbox {
+	display: inline-block;
+	height: 25px;
+	margin: 0 5px;
+    border: 1px solid #efefef;
+    border-radius:0px;
+    color: #999;
+}
+.ui-jqgrid .ui-jqgrid-pager{
+	background-color: #fff;
+    z-index: 100;
+}
+.ui-jqgrid  span.ui-icon {
+    background-image: url(../../../../stylesheets/jQueryUI/images/ui-icons_444444_256x240.png) !important;
+}
+.ui-jqgrid tr.jqgrow{
+	height: 37px !important;
+}
+.ui-jqgrid  .ui-icon-triangle-1-s {
+    background-position: -64px -16px;
+}
+.ui-jqgrid.ui-widget.ui-widget-content{
+	border: 0px;
+}
+.ui-jqgrid .ui-jqgrid-bdiv{
+	border-top: 0px;
+}
+.ui-jqgrid .ui-corner-top{
+	border: 0px;
+}
+.ui-jqgrid tr.jqgrow td:not([style *="none"]){/*:FIRST-CHILD*/
+	border-right:0px;
+	border-left: 1px solid #efefef;
+	background: transparent;
+}
+.ui-jqgrid tr.jqgrow td:LAST-CHILD{
+	border-right: 1px solid #efefef;
+}
+ .ui-jqgrid .frozen-div{
+	border-bottom: 0px;
+}
+ .ui-jqgrid .frozen-bdiv tr.jqgrow td:LAST-CHILD{
+/* 	border-right: 0px; */
+}
+ .ui-jqgrid .frozen-bdiv table tr.jqgrow:FIRST-CHILD > td{
+	border-top: 0px;
+}
+.ui-jqgrid .ui-jqgrid-hbox{
+	padding: 0;
+}
+
+/**
+��table
+*/
+.ui-jqgrid .ui-dlg-table tr.jqgrow td {
+    height: 33px;
+    line-height: 33px;
+}
+/*timepicker*/
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+.ui-timepicker-div .ui_tpicker_unit_hide{ display: none; }
+
+.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input { background: none; color: inherit; border: none; outline: none; border-bottom: solid 1px #555; width: 95%; }
+.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input:focus { border-bottom-color: #aaa; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
+
+/* Shortened version style */
+.ui-timepicker-div.ui-timepicker-oneLine { padding-right: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time, 
+.ui-timepicker-div.ui-timepicker-oneLine dt { display: none; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label { display: block; padding-top: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine dl { text-align: right; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd, 
+.ui-timepicker-div.ui-timepicker-oneLine dl dd > div { display:inline-block; margin:0; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before { content:':'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before { content:'.'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide,
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before{ display: none; }
+/* no data */
+.no-data-icon{
+	width:100px;
+	height:85px;
+	margin:0 auto;
+	background:url(../../../../stylesheets/theme/default/images/AIOP_bg.png) no-repeat -3px -373px
+}
+.grid-nodata-box{
+	margin:80px 0;
+}
+/* new for UI */
+.ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr[aria-selected="true"]{
+	color:#1CB0F6;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fafafa !important;
+}
+.secondGridBox.complex-table .ui-jqgrid .ui-jqgrid-labels.jqg-second-row-header th.ui-th-ltr {
+    border-top: 0px;
+    border-left: 0px;
+    color: #333;
+}
+
+.secondGridBoxWrp{
+	height:710px !important;
+}
+.ui-grid-box .progress-bar{
+	color:#999;
+}
+
+
+

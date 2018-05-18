@@ -1,0 +1,260 @@
+body {
+  min-width: 1280px;
+  font-family: MicrosoftYaHei;
+}
+.headerMain {
+  background: url(images/banner.png) center center;
+  width: 100%;
+}
+.headerMain .mainBg {
+  width: 1280px;
+  height: 419px;
+  margin: 0 auto;
+}
+.headerMain .mainBg .mainLeftBox {
+  color: #fff;
+  line-height: 22px;
+  font-size: 16px;
+  max-width: 48%;
+  float: left;
+  margin-top: 108px;
+  margin-left: 104px;
+}
+.headerMain .mainBg .mainLeftBox :first-child {
+  font-size: 36px;
+  line-height: 50px;
+}
+.headerMain .mainBg .mainLeftBox :nth-child(2) {
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+.headerMain .mainBg .mainLeftBox :nth-child(3) {
+  font-size: 14px;
+  color: #50E3D4;
+}
+.headerMain .mainBg .mainLeftBox .uex-icon-start-all {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.flex .yellow-hr {
+  width: 44px;
+  height: 4px;
+  background: #F5A623;
+  margin: 0 35px;
+  margin-top: 19px;
+}
+.flex .blue-hr {
+  width: 44px;
+  height: 4px;
+  background: #50E3C2;
+  margin: 0 35px;
+  margin-top: 19px;
+}
+.flex .func-text {
+  font-size: 30px;
+  color: #3C3C3C;
+}
+.productFeature {
+  width: 100%;
+}
+.productFeature .productFeatureOne {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.productFeature .productFeatureTwo {
+  margin-top: 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.contentSection {
+  background: #f9f9f9;
+  width: 100%;
+  margin-top: 30px;
+  height: 260px;
+}
+.contentSection .contentSectionBigBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contentSection .contentSectionBigBox .contentSectionBox {
+  width: 16.6%;
+  height: 200px;
+  text-align: center;
+  padding: 30px 20px 0 20px;
+}
+.contentSection .contentSectionBigBox .contentSectionBox .iconFont {
+  font-size: 48px;
+  color: #888;
+}
+.contentSection .contentSectionBigBox .contentSectionBox .centralization {
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+}
+.contentSection .contentSectionBigBox .contentSectionBox .liFontSize {
+  text-align: left;
+}
+.mouseShowBigBox {
+  background: #f9f9f9;
+  width: 100%;
+}
+.mouseShowBigBox .mouseShowBox {
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mouseShowBigBox .mouseShowBox .mouseShow {
+  width: 25%;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  height:200px;
+}
+.mouseShowBigBox .mouseShowBox .mouseShow i {
+  font-size: 36px;
+}
+.mouseShowBigBox .mouseShowBox .mouseShow h5 {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.mouseShowBigBox .mouseShowBox .mouseShow p {
+  text-align: left;
+  color: #888;
+}
+.mouseShowBigBox .mouseShowBox .active {
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(127, 127, 127, 0.23);
+  border: 1px solid #ccc;
+  z-index: 1000;
+  border-radius: 2px;
+  color: #888;
+  height:200px;
+}
+.footerUpBox {
+  min-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.footerUpBox .footerMainBox {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.footerUpBox .footerMainBox .footerUpLeftBox .footerUpLeft {
+  width: 437px;
+  height: 183px;
+  background-size: 100% 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+  padding: 0 70px 0 10px;
+  opacity: 0.57;
+  background: #192F44;
+  border-radius: 4px;
+}
+.footerUpBox .footerMainBox .footerUpLeftBox .footerUpLeft .found-title {
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 33px;
+  margin-top: 36px;
+  text-indent: 30px;
+  padding-top: 30px;
+}
+.footerUpBox .footerMainBox .footerUpLeftBox .footerUpLeft .found-text {
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  padding: 5px 30px 0 30px ;
+}
+.footerUpBox .footerMainBox .footerUpLeftBox .liuBg {
+  background: url(images/流量可视化.svg) center center no-repeat;
+}
+.footerUpBox .footerMainBox .footerUpLeftBox .geBg {
+  background: url(images/个性化营销.svg) center center no-repeat;
+}
+.footerUpBox .footerMainBox .footerUpCenterBox {
+  margin: 25px 25px;
+}
+.footerUpBox .footerMainBox .footerUpCenterBox img {
+  margin-top: 35px;
+}
+.footerUpBox .footerMainBox .footerUpRightBox .footerUpRight {
+  width: 437px;
+  height: 183px;
+  background-size: 100% 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+  opacity: 0.57;
+  background: #192F44;
+  border-radius: 4px;
+}
+.footerUpBox .footerMainBox .footerUpRightBox .footerUpRight .found-title {
+  line-height: 33px;
+  margin-top: 36px;
+  text-indent: 30px;
+  padding-top: 30px;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.footerUpBox .footerMainBox .footerUpRightBox .footerUpRight .found-text {
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  padding: 5px 30px 0 30px !important;
+  display: flex;
+}
+.footerUpBox .footerMainBox .footerUpRightBox .keBg {
+  background: url(images/客户标签库.svg) center center no-repeat;
+}
+.footerUpBox .footerMainBox .footerUpRightBox .reBg {
+  background: url(images/热门内容推荐.svg) center center no-repeat;
+}
+.sideDocumennt {
+  width: 45px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #47B2FB;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  right: 0;
+  top: 65%;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #303643;
+  height: 200px;
+}
+.footer .footer-content {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+.footer .footer-content .footer-title {
+  color: #fff;
+  font-size: 14px;
+}
